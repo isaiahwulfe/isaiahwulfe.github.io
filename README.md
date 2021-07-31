@@ -1,1 +1,1 @@
-# Isaiah's GitHub
+# <p style="text-align: center;">Isaiah's GitHub</p>
