@@ -1,1 +1,1 @@
-# <p style="text-align: center;">Isaiah's GitHub</p>
+# <div align="center">Isaiah's GitHub</div>
