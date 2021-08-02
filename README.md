@@ -3,7 +3,7 @@
 ***
 
 ### <div align="center">A Home For My Portfolio</div>
-> My name is Isaiah Wulfe and I'm currently going through the MIT xPRO Full Stack Development Bootcamp. I started in July 2021 and I will use this repo to create a portfolio of my assignments!
+> My name is Isaiah Wulfe and I'm currently going through the MIT xPRO Full Stack Development Bootcamp. I started in July 2021 and I will use this repo to create a portfolio of my assignments! [Click Here](isaiahwulfe.github.io) to visit the homepage.
 
 ### <div align="center">Bootcamp Journal</div>
 
