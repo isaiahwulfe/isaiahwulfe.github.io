@@ -8,6 +8,7 @@
 ### <div align="center">To Do List</div>
 > - Add link functionality and data to the navigation images
 > - Create About, Portfolio and Contact Pages
+> - Compress background images for faster loading
 > - Add on hover action to the home page navigation
 
 ### <div align="center">Bootcamp Journal</div>
