@@ -8,7 +8,7 @@
 ### <div align="center">To Do List</div>
 > - Add link functionality and information to the navigation images
 > - Create About, Portfolio and Contact Pages
-> - Add on hover action
+> - Add on hover action to the home page navigation
 
 ### <div align="center">Bootcamp Journal</div>
 
