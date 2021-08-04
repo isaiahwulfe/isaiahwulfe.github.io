@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div>
+        <div style="
+            position: relative;
+            margin: 0;
+            width: 110px;
+            height: 110px;
+            top: 0%;
+            left: 50%;
+            transform: translate(-50%, -0%);
+            background-image: url('./indeximg.png');
+            background-size: 110px 110px;
+            filter: drop-shadow(0 0 0.75rem white);"
+        >
+            <div style="
+            position: absolute;
+            margin: 0;
+            width: 90px;
+            height: 90px;
+            top: 20px;
+            left: -90px;
+            background-image: url('./buttons.png');
+            background-size: 90px 90px;
+            filter: drop-shadow(0 0 0.75rem white);"></div>
+            <div style="
+            position: absolute;
+            margin: 0;
+            width: 90px;
+            height: 90px;
+            top: 20px;
+            left: -180px;
+            background-image: url('./buttons.png');
+            background-size: 90px 90px;
+            filter: drop-shadow(0 0 0.75rem white);"></div>
+            <div style="
+            position: absolute;
+            margin: 0;
+            width: 90px;
+            height: 90px;
+            top: 20px;
+            left: 110px;
+            background-image: url('./buttons.png');
+            background-size: 90px 90px;
+            filter: drop-shadow(0 0 0.75rem white);"></div>
+            <div style="
+            position: absolute;
+            margin: 0;
+            width: 90px;
+            height: 90px;
+            top: 20px;
+            left: 200px;
+            background-image: url('./buttons.png');
+            background-size: 90px 90px;
+            filter: drop-shadow(0 0 0.75rem white);"></div>
+        </div>
+    </div>
+    <hr class="headertag">
+
+    <div class="spacer1"></div>
+
+    <div style="
+        position:absolute;
+        top: auto;
+        left: 50%;
+        width: 660px;
+        transform: translate(-50%, -0%);
+    ">
+    <h3>Using JavaScript To Create Basic Animation With Images
+        <br>
+        (Click Pacman To Start)
+    </h3>
+    </div>
+    
+    <div class="spacer3"></div>
+
+    <div id="area3" style="
+        position:relative;
+        margin: 0;
+        top: auto;
+        left: 50%;
+        transform: translate(-50%, -0%);
+    ">
+        <img id="PacMan" src="PacMan1.png" width='200' onclick="Run()" style="position:absolute"></img>    
+    </div>
+        
+    <div id="area2" style="
+            position:relative;
+            margin: 0;
+            top: 105px;
+            left: 50%;
+            transform: translate(-50%, -0%);
+        ">
+            <div style="
+            position:absolute;
+            top: -125px;
+            width: 330px;
+            ">
+            <h3>Using JavaScript to move elements on the X and Y axes</h3>
+            </div>
+            <div id="firstBall" style="
+            z-index:5;
+            position:absolute;
+            left:0px;
+            top:0px;
+            width:50px;
+            height:50px;
+            border-radius:50%;
+            background:green">
+            </div>
+            <div id="secondBall" style="
+            z-index:5;
+            position:absolute;
+            left:0px;
+            top:75px;
+            width:50px;
+            height:50px;
+            border-radius:50%;
+            background:green">
+            </div>
+    </div>     
+        
+    <div id="area" style="
+            position:relative;
+            margin: 0;
+            top: 210px;
+            left: 50%;
+            transform: translate(-50%, -0%);
+        ">
+        <div style="
+            position: absolute;
+            top: -125px;
+            width: 330px;
+        ">
+        <h3>Using Javascript to create dynamic movement</h3>
+        </div>
+    </div>
+
+    <script src="./bigmouth.js"></script>
+    <script src="./firstBall.js"></script>
+    <script src="./walk.js"></script>
+
+</body>
+
+</html>
