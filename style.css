@@ -5,32 +5,27 @@
 }
 h3 {
     color: white;
-    text-align: center;
     filter: drop-shadow(0 0 0.75rem black);
 }
 h4 {
     color: white;
-    text-align: center;
     filter: drop-shadow(0 0 0.75rem black);
 }
 .grid-container {
     display: grid;
     align-content: center;
     grid-template-areas:
-    'header header header header header'
-    'main main right right right';
+    'header'
+    'right';
     grid-gap: 10px;
-    background-color: rgb(55, 111, 174, 0.7);
+    background-color: white;
     padding: 10px;
   }
 .grid-container > div {
-    background-color: rgb(236, 242, 249, 0.7);
-    text-align: center;
     padding: 20px 0;
     font-size: 30px;
   }
   .item1 { grid-area: header; }
-  .item2 { grid-area: main; }
   .item3 { grid-area: right; }
 body {
     background-image: url('./bgimg.png');
@@ -86,4 +81,8 @@ hr.headertag {
     font-size: 0;
     height: 130px;
     line-height: 0;
+}
+span {
+  display: inline-block;
+  padding-top: 70px;
 }
