@@ -2,6 +2,7 @@
   background-color: rgba(173, 216, 230, 0.6);
   line-height: 2;
   border: 5px solid white;
+  filter: drop-shadow(0 0 0.75rem rgba(173, 216, 230));
 }
 h3 {
     color: white;
@@ -79,10 +80,21 @@ hr.headertag {
 }
 .spacer3 {
     font-size: 0;
-    height: 130px;
+    height: 67px;
     line-height: 0;
 }
 span {
   display: inline-block;
   padding-top: 70px;
+}
+.footer {
+   position: relative;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: rgba(173, 216, 230, 0.6);
+   color: white;
+   text-align: center;
+   filter: drop-shadow(0 0 0.75rem rgba(173, 216, 230));
+   line-height: 2;
 }
