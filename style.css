@@ -10,7 +10,7 @@ h3 {
 }
 h4 {
     color: white;
-    text-align: left;
+    text-align: center;
     filter: drop-shadow(0 0 0.75rem black);
 }
 .grid-container {
