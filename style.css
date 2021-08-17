@@ -70,17 +70,17 @@ hr.headertag {
   }
 .spacer1 {
     font-size: 0;
-    height: 30px;
+    height: 110px;
     line-height: 0;
 }
 .spacer2 {
     font-size: 0;
-    height: 315px;
+    height: 67px;
     line-height: 0;
 }
 .spacer3 {
     font-size: 0;
-    height: 67px;
+    height: 30px;
     line-height: 0;
 }
 span {
@@ -97,4 +97,10 @@ span {
    text-align: center;
    filter: drop-shadow(0 0 0.75rem rgba(173, 216, 230));
    line-height: 2;
+}
+.navigation {
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, 0%);
 }
