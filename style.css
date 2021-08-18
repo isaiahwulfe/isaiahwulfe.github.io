@@ -59,18 +59,9 @@ body {
     display: inline-block;
     border-radius: 50%;
   }
-hr.headertag {
-    border: 5px solid white;
-    border-radius: 5px;
-    filter: drop-shadow(0 0 0.75rem white);
-    width: 660px;
-    position:absolute;
-    left: 50%;
-    transform: translate(-50%, -50%)
-  }
 .spacer1 {
     font-size: 0;
-    height: 110px;
+    height: 130px;
     line-height: 0;
 }
 .spacer2 {
@@ -82,10 +73,6 @@ hr.headertag {
     font-size: 0;
     height: 30px;
     line-height: 0;
-}
-span {
-  display: inline-block;
-  padding-top: 70px;
 }
 .footer {
    position: relative;
