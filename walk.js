@@ -26,10 +26,29 @@ const area = {
   function changeDirectionIfNecessary(ball, x, y) {
     if (x < 0 || x > area.width - ball.width) {
       ball.dx = -ball.dx;
+      ball.element.style.width = getRndInteger(5, 35) + 'px';
+      ball.element.style.height = ball.element.style.width;
+      ball.element.style.backgroundColor = getRandomColor();
     }
     if (y < 0 || y > area.height - ball.height) {
       ball.dy = -ball.dy;
+      ball.element.style.width = getRndInteger(5, 35) + 'px';
+      ball.element.style.height = ball.element.style.width;
+      ball.element.style.backgroundColor = getRandomColor();
     }
+  }
+
+  function getRndInteger(min, max) {
+    return Math.floor(Math.random() * (max - min + 1) ) + min;
+  }
+
+  function getRandomColor() {
+    var letters = '0123456789ABCDEF';
+    var color = '#';
+    for (var i = 0; i < 6; i++) {
+      color += letters[Math.floor(Math.random() * 16)];
+    }
+    return color;
   }
   
   // TODO: implement the create function
@@ -70,6 +89,7 @@ const area = {
     },
     16 / 16);
   }
+
   
   // Uncomment these lines for step 1 of the activity
   // This is expected to create 3 balls within the area div
@@ -91,5 +111,5 @@ const area = {
   
   // Do not change code past this point
   if (typeof module !== 'undefined') {
-    module.exports = { update, create, changeDirectionIfNecessary, moveTo, area };
+    module.exports = { update, create, changeDirectionIfNecessary, changeSizeAndColor, moveTo, area };
   }
