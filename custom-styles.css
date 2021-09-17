@@ -1,0 +1,114 @@
+/* Tags Styling */
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+table {
+    font-family: 'Oswald', sans-serif;
+    color: #090934;
+}
+
+footer {
+    width: 100%;
+    background-color: #090934;
+    font-family: 'Oswald', sans-serif;
+    color: #CBE432;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* Navigation Styling */
+
+.nav-link {
+    font-family: 'Oswald', sans-serif;
+}
+
+/* Header Styling */
+
+.header-text {
+    font-family: 'Yellowtail', cursive;
+    color: white;
+    padding-bottom: 10px;
+    filter: drop-shadow(0 0 0.2rem black);
+    text-align: center;
+}
+
+.header-image {
+    width: 150px; 
+    height: auto; 
+    position: relative; 
+    left:50%; 
+    top:50%; 
+    transform: translate(-50%, -50%); 
+    filter: drop-shadow(0 0 0.2rem lightgrey); 
+    padding: 10px;
+}
+
+/* Body Styling */
+
+.home-one {
+    background-color: #F3F7D4;
+    background-image: var(--bs-gradient);
+    height: 100%;
+}
+
+.home-two {
+    background-color: #CBE432;
+    background-image: var(--bs-gradient);
+    height: 100%;
+}
+
+.home-three {
+    background-color: #2E2FE3;
+    background-image: var(--bs-gradient);
+    height: 100%;
+}
+
+.body-heading-text {
+    font-family: 'Oswald', sans-serif;
+    color: #FD4D0C;
+    filter: drop-shadow(0 0 .1rem rgb(9, 9, 52, .4));
+    text-align: center;
+}
+
+/* Card Styling */
+
+.card-header-text {
+    font-family: 'Yellowtail', cursive;
+    color: #CBE432;
+}
+
+.card-header-text-alt {
+    font-family: 'Yellowtail', cursive;
+    color: #F3F7D4;
+}
+
+.card-body-text {
+    font-family: 'Oswald', sans-serif;
+    color: #090934;
+    filter: drop-shadow(0 0 .1rem rgb(203, 228, 50));
+}
+
+.card-body-text-alt {
+    font-family: 'Oswald', sans-serif;
+    color: #090934;
+    filter: drop-shadow(0 0 .1rem black);
+}
+
+.card-body-text-sub {
+    font-family: 'Oswald', sans-serif;
+    color: #090934;
+    filter: drop-shadow(0 0 .1rem black);
+}
+
+.card-link {
+    font-family: 'Oswald', sans-serif;
+    color: #090934;
+}
+
+.card-link:hover {
+    color: #CBE432;
+}

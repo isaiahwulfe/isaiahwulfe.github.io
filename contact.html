@@ -1,33 +1,39 @@
 <!DOCTYPE html>
-<html>
-
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
+<html lang="en">
+  <head>
+  <meta charset="utf-8" />
+  <title>Isaiah A. Wulfe</title>
+  <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+  <!-- Custom CSS -->
+  <link href="./custom-styles.css" rel="stylesheet">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Yellowtail&display=swap" rel="stylesheet">
 </head>
-
 <body>
-    <div class="navigation">
-        <a href="./about.html"><img src="./about.png" style="width:90px; height:90px;"></a>
-        <a href="./portfolio.html"><img src="./portfolio.png" style="width:90px; height:90px;"></a>
-        <a href="./index.html"><img src="./indeximg.png" style="width:110px; height:110px;"></a>
-        <a href="./contact.html"><img src="./contact.png" style="width:90px; height:90px;"></a>
-        <a href="https://isaiahwulfe.github.io"><img src="./git hub.png" style="width:90px; height:90px;"></a>
-    </div>
 
-    <div class="spacer1"></div>
+  <div id="header-module">
+    <!-- Populated By header.js -->
+  </div>
 
-    <img src="navu.png" style="position:absolute; left: 50%; transform: translate(-50%, -50%);">
+  <div class="home-two" id="bio-cards">
+    <!-- Populate By contact.js -->
+  </div>
 
-    <div class="spacer3"></div>
-
-    <div id="textarea" style="width: 660px; position: absolute; top: auto; left: 50%; transform: translate(-50%, -0%);">
-    <h3 style="text-align: center;">Follow me on <a href="https://isaiahwulfe.github.io">GitHub</a> or LinkedIn (coming soon) to get in touch.</h3>
-    </div>
-
-    <div class="footer" style="position: fixed;">
-        <p style="filter: drop-shadow(0 0 0 0.75rem black);"> Designed, Built and Maintained by Isaiah Aurelius Wulfe</p>
-    </div>
-
+  <footer id="footer">  
+    <!-- Populated By footer.js -->
+  </footer>  
+  
+  <!-- Header JS -->
+    <script src="./header.js"></script>
+  <!-- Contact JS -->
+    <script src="./contact.js"></script>
+  <!-- Footer JS -->
+    <script src="./footer.js"></script>
+  <!-- Bootstrap JS -->  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
 </body>
 </html>
