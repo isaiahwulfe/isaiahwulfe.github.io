@@ -1,8 +1,7 @@
 /* Tags Styling */
 
 html, body {
-    height: 100%;
-    margin: 0;
+    height: auto; 
 }
 
 table {
@@ -52,19 +51,16 @@ footer {
 .home-one {
     background-color: #F3F7D4;
     background-image: var(--bs-gradient);
-    height: 100%;
 }
 
 .home-two {
     background-color: #CBE432;
     background-image: var(--bs-gradient);
-    height: 100%;
 }
 
 .home-three {
     background-color: #2E2FE3;
     background-image: var(--bs-gradient);
-    height: 100%;
 }
 
 .body-heading-text {
@@ -111,4 +107,35 @@ footer {
 
 .card-link:hover {
     color: #CBE432;
+}
+
+.bio-section {
+    position: relative;
+    padding: 2rem 0 2rem 0;
+    width: 80%;
+    left: 50%; 
+    transform: translate(-50%);
+}
+
+.contact-section {
+    position: relative;
+    padding: 2rem 0 2rem 0;
+    width: 80%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.projects-section {
+    position: relative;
+    padding: 2rem 0 2rem 0;
+    width: 80%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.indie {
+    position: relative;
+    height: 100vh;
+    text-align: center;
+    padding-top: 5rem;
 }
