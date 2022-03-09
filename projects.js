@@ -157,7 +157,7 @@ const projectsHTML =
                   </td> 
                   <td> 
                     <a href="http://isaiah-wulfebankingapplication.s3-website-us-west-1.amazonaws.com/" target="blank" class="card-link"> 
-                      GitHub 
+                      AWS Bucket 
                     </a> 
                   </td> 
                   <td> 
