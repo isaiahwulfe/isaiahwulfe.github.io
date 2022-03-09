@@ -42,7 +42,7 @@ const html =
           <li><a class="dropdown-item" href="https://isaiahwulfe.github.io/ATM-Machine/" target="blank">ATM Machine</a></li>
           <li><a class="dropdown-item" href="https://isaiahwulfe.github.io/dictionary/" target="blank">Merriam-Webster API Dictionary</a></li>
           <li><a class="dropdown-item" href="https://isaiahwulfe.github.io/TikTakToe/" target="blank">TikTakToe</a></li>
-          <li><a class="dropdown-item" href="https://isaiahwulfe.github.io/Bad-Bank/#/" target="blank">Bad Bank</a></li>
+          <li><a class="dropdown-item" href="http://isaiah-wulfebankingapplication.s3-website-us-west-1.amazonaws.com/" target="blank">Bad Bank</a></li>
         </ul> 
       </li> 
       <li class="nav-item"> 

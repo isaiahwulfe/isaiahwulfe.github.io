@@ -156,7 +156,7 @@ const projectsHTML =
                     Bad Bank 
                   </td> 
                   <td> 
-                    <a href="https://github.com/isaiahwulfe/Bad-Bank" target="blank" class="card-link"> 
+                    <a href="http://isaiah-wulfebankingapplication.s3-website-us-west-1.amazonaws.com/" target="blank" class="card-link"> 
                       GitHub 
                     </a> 
                   </td> 
